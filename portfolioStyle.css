@@ -1,0 +1,272 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu1{
+    margin-left: 4px;
+}
+
+#menu2{
+    margin-right: 4px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height:60vh;
+}
+
+li{
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    font-size: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 18px #777;
+    cursor: pointer;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon1{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-image: url(planets.jpg);
+    background-position: -331px -248px ;
+    margin-right: 5px;
+}
+
+#icon2{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-image: url(planets.jpg);
+    background-position: -75px -248px ;
+    margin-right: 5px;
+}
+
+#icon3{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-image: url(planets.jpg);
+    background-position: -356px -704px ;
+    margin-right: 5px;
+}
+
+#icon4{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-image: url(planets.jpg);
+    background-position: -627px -692px ;
+    margin-right: 5px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height:70vh
+}
+
+#Name{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+#namecol{
+    color: rgb(216, 114, 59);
+    font-weight: 900;
+}
+
+#designation{
+    color: rgb(6, 167, 185);
+}
+
+#main{
+    background-image: url("Cartoon_Boy.png");
+    height:100vh;
+    background-position: -50px 0;
+}
+
+#role{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#role h2{
+    font-size: 35px;
+    color: white;
+}
+
+#details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#details h2{
+    font-size: 40px;
+    margin-bottom: 20PX;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    box-shadow: 0 0 18px #777;
+    border-radius: 12PX;
+    width:80%;
+    height:400px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(184, 215, 240);
+}
+
+#info p{
+      font-size: 20px;
+      font-weight: 500;
+
+}
+
+#expPage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: cadetblue;
+}
+
+.title{
+    margin-bottom: 20px;
+    position: absolute;
+    left:520px;
+    top:50px;
+}
+
+#company{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+     width: 300px;
+     height:300px;
+     border-radius: 12px;
+}
+
+form{
+    width: 100%;
+    height:300px;
+    border-radius: 12px;
+}
+
+fieldset{
+        height:300px;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 0 12px silver;
+        padding: 2px;
+        background-color: white;
+}
+
+fieldset p{
+    margin-top: 10px;
+}
+
+legend{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 12px silver;
+}
+
+#yoktha{
+    background-image: url(yoktha_logo.jpg);
+    background-size: cover;  
+}
+
+#mergen{
+    background-image: url(mergen_logo.jpg);
+    background-size: cover;  
+}
+
+#myprojects{
+    height: 100vh;
+    display: flex;
+}
+
+#section1, #section2{
+    height: 100vh;
+    border-radius: 12px;
+}
+
+#section1{
+    width: 50%;
+    border: 2px solid green;
+}
+
+#section2{
+    width: 50%;
+    border: 2px solid red;
+}
+
+.head{
+    text-align: center;
+    margin: 10px 0;
+}
+
+#projectsList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid pink;
+    height: 90%;
+}
+
+#prjcontainer{
+    height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+}
+
+.prj{
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+.prj P{
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+
+    
+}
